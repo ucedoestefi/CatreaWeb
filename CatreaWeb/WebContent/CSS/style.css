@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+/*CSS login*/
+
+header{
+    width: 100%;
+    margin-top: 0px;
+    height: 90px;
+    border-bottom: #81939F solid 3px;
+    color:white;
+    background-color: #6BB5E7;     
+}
+
+#titulo {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    border-top: #81939F solid 3px;
+    font-family: sans-serif;
+    margin-top: 8px; 
+}
+
+p{
+   font-size: 20px; 
+}
+
+.encabezado{
+    font-size: 25px;
+    color: #12068B;
+}
+
+.contenedor-fieldset{
+    margin: 5px auto 5px auto;  
+    width: 40%;
+    background-position: center;
+    background-size: cover;
+    background-color: #BFDDF3;
+}
+
+.contenedor-login {
+    padding: 10px;
+    background: #D0E2EF;
+    margin: 25px auto 25px auto;   
+    width: 90%;  
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+contenedor-login:hover {
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.contenedor-imagen-login {
+    width: 30%;
+    background-position: center;
+    margin: auto;
+}
+
+.contenedor-imagen-login img {
+    background-position: center;
+    margin: 0 auto;
+    margin-left: 8px;
+    margin-bottom: auto;
+    width: 90%;
+}
+
+ .form-group{
+    width: 44%;   
+    margin-bottom: 10px;   
+ }
+    
+.form-control {
+    width: 150%;
+    margin-left: 140px;     
+}
+
+.contenedor-recuperar a {
+    margin-left: -5px;
+}
+
+footer{
+    background-color: #6BB5E7;
+    margin-bottom: 0px;
+    height: 40px;
+    border-bottom: #81939F solid 3px;
+    border-top: #81939F solid 3px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/*CSS Formulario*/
+
+#titulo {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    border-top: #81939F solid 3px;
+    font-family: sans-serif;
+    margin-top: 8px;
+}
+
+legend {
+    margin-left: 30px;
+    color: #12068B;
+    font-size: 20px;
+}
+
+a{
+    color: white;
+}
+
+.form-login {
+    width: 130%;    
+    font-size: 1em;   
+}
+
+fieldset {
+    background: #D0E2EF;    
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px; 
+}
+
+fieldset:hover {
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.contenedor-input {
+    width: 60%;   
+    margin-bottom: 10px;
+}
+
+footer{                                      
+    background-color: #6BB5E7;
+    margin-top: 40px;
+    height: 40px;
+    border-bottom: #81939F solid 3px;
+    border-top: #81939F solid 3px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*CSS Tabla*/
+
+.content {
+    width:100%;
+    height: 560px;
+    background-color: white;
+    font-family: sans-serif;
+  }
+  
+  #main-container {
+      margin: 150px auto;
+      width: 1200px;    
+      margin-top: 30px;
+  }
+  
+  .tabla{
+      background-color: #E5F0F7;
+      text-align: left;
+      border-collapse: collapse;
+      margin: 10px auto 10px auto;
+      width: 100%;
+     }
+     
+  th,
+  td {
+      padding: 16px;  
+      font-size: 15px;   
+  }
+  
+  thead {
+      background-color: #206FA0;            
+      border-bottom: solid 5px #134869;     
+      color: white;
+  }
+  
+  tr:nth-child(even) {  
+      background-color: #A5D3F2;
+      color: black;
+  }
+  
+  footer{   
+      width: 100%;
+      background-color: #6BB5E7;
+      margin-bottom: 0px;
+      height: 40px;
+      border-bottom: #81939F solid 3px;
+      border-top: #81939F solid 3px;
+      color: white;
+      font-size: 15px;
+      font-family: sans-serif;
+      font-weight: bold;
+      text-align: center;
+  }
+
+/*CSS Confirmacion Formulario*/  
+
+.contenedor-confirmacion-formulario {
+    margin-top: 100px;  
+    background: #D0E2EF;                        
+    width: 35%;            
+    font-family:sans-serif;
+    font-size: 8px;    
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.contenedor-confirmacion-formulario p {
+    margin: auto;
+    margin-left: 20px;
+    font-size: 3em;
+}
+
+/*CSS Confirmacion contraseña*/
+
+.contenedor-confirmacion {
+    margin-top: 100px;  
+    background: #D0E2EF;                        
+    width: 35%;           
+    font-family:sans-serif;
+    font-size: 8px;    
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.contenedor-confirmacion p {
+    margin: auto;
+    font-size: 3em;
+    background-position: center;
+}
+
+.btn-primary a {
+    color: white;
+    font-family: sans-serif;
+}
+
+/*CSS Recuperar Contraseña*/
+
+.contenedor{
+    background-color: #BFDDF3;
+    margin: 10px auto 10px auto;     
+    width: 60%;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.contenedor-contrasenia {
+    background: #D0E2EF;    
+    width: 80%;   
+    font-family: fantasy;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+    background-position: center;
+}
+
+.contenedor-input-mail {
+    margin: auto;
+}
+
+.form-input-mail {
+    width: 95%;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+label {
+    margin-left: 200px;
+    font-size: 15px;
+    font-family:sans-serif;
+    color: #12068B; 
+}
+
+.btn-primary a {
+    color: white;
+    font-family: sans-serif;
+}
+
+.col-sm-10{
+    position:absolute;
+    margin-left: -14px;
+    font-family: sans-serif;
+}

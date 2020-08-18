@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+/*CSS Formulario*/
+
+header{
+    width: 100%;
+    margin-top: 0px;
+    height: 90px;
+    border-bottom: #81939F solid 3px;
+    color:white;
+    background-color: #6BB5E7;
+}
+
+.encabezado{
+    font-size: 25px;
+    color: #12068B;
+}
+
+#titulo {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    border-top: #81939F solid 3px;
+    font-family: sans-serif;
+    margin-top: 8px;
+}
+
+p{
+   font-size: 20px; 
+}
+
+.contenedor-fieldset{
+    margin: 5px auto 5px auto;  
+    width: 40%;
+    background-position: center;
+    background-size: cover;
+    background-color: #BFDDF3;
+}
+
+legend {
+    margin-left: 30px;
+    color: #12068B;
+    font-size: 20px;
+}
+
+a{
+    color: white;
+}
+
+.form-login {
+    width: 130%;    
+    font-size: 1em;   
+}
+
+fieldset {
+    background: #D0E2EF;    
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px; 
+}
+
+fieldset:hover {
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.contenedor-input {
+    width: 60%;   
+    margin-bottom: 10px;
+}
+
+footer{                                      
+    background-color: #6BB5E7;
+    margin-top: 40px;
+    height: 40px;
+    border-bottom: #81939F solid 3px;
+    border-top: #81939F solid 3px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
